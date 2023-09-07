@@ -6,7 +6,7 @@ def readme():
         return f.read()
 
 
-setup(name='py-ic-imaging-control',
+setup(name='py-ic-imaging-control_jan',
       version='1.0',
       description='Python wrapper for the IC Imaging Control SDK from The Imaging Source (TIS)',
       long_description=readme(),
@@ -16,9 +16,9 @@ setup(name='py-ic-imaging-control',
                    'Topic :: Scientific/Engineering',
                    ],
       keywords='tis imaging source',
-      url='https://github.com/zivlab/py-ic-imaging-control',
-      author='morefigs',
-      author_email='morefigs@gmail.com',
+      url = 'https://github.com/JanKollmorgen/py-ic-imaging-control_jan.git',
+      author='Jan',
+      author_email='jan',
       license='GPL-3',
       packages=['pyicic'],
       )
